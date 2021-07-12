@@ -1,0 +1,140 @@
+
+
+
+.color-red{background-color: #ff4c68;}
+
+.color-white{background-color: #fff;}
+
+
+h1{font-family: 'Montserrat-black ;
+line-height: 1.5;
+font-size: 3.2rem;
+color: white;}
+
+h2{font-family: Montserrat-bold;
+font-size: 3rem;
+line-height: 1.5;}
+
+h3{font-size: 1.5rem;
+font-family: Montserrat-bold;}
+
+.container-fluid
+{padding-left: 10%;
+  padding-right:15%;
+padding-top: 0.5%;
+padding-bottom: 5%;}
+
+/*navbar*/
+
+.navbar{padding-bottom: 3.5rem;
+padding-top: 1em;}
+
+.navbar-brand{font-size: 2.5rem;
+  font-family: Ubuntu;
+font-weight: bold;}
+
+.nav-item{padding-left: 18px;
+padding-right: 18px;
+font-size: 1.2rem;}
+
+
+/* download-button */
+
+.download-button{margin-right: 20px;
+margin-top: 40px;}
+
+/* title */
+
+.dog-image{width: 280px;
+    height: 520px;
+  transform: rotate(
+  25deg);
+position: absolute;
+
+}
+
+/* media */
+
+@media screen and (max-width:1028px){
+  .dog-image{position: static;
+transform: rotate(0);
+width: 250px;
+height: 400px;
+padding-top:  15%}
+
+.title-section{text-align: center;}
+}
+
+
+/* features */
+#features-section{
+position: relative;
+z-index: 1;
+}
+.fas{color: #ff4c68;
+font-size: 50px;
+margin-top: 80px;
+}
+
+.row{padding-bottom: 60px;}
+.paragraph{color: #8f8f8f;}
+
+
+
+ /* Testimonials */
+
+#testimonials{
+text-align: center;
+padding: 50px;
+color: #fff;}
+
+
+.testimonials-dog{border-radius: 100%;
+width: 250px;
+padding: 20px;}
+
+.testimonial-image{border-radius: 50%;
+width: 250px;
+padding: 20px;}
+
+
+/* press */
+
+
+#press{
+text-align: center;
+padding-bottom: -10px;}
+
+
+.press-image{padding: 20px;
+width: 250px;}
+
+
+
+/* pricing */
+
+#pricing{padding: 100px;
+text-align: center;}
+
+
+ .pricing-column{padding-top: 30px;
+ padding-right: 40px;
+padding-left: 40px;}
+
+
+
+/* cta */
+#cta{
+  text-align: center;
+  padding: 3%;
+}
+.cta-h3{font-family: 'Montserrat', sans-serif;
+font-size: 100px;}
+
+
+.fab{padding:1%;}
+
+/* cta-down */
+
+
+.cta-down{padding: 2%;}
